@@ -78,6 +78,8 @@ async def delete_student(request, id):
 
     raise NotFound(f"Student {id} not found")
 
+async def see():
+    pass
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8000, debug=True)
